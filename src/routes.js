@@ -7,6 +7,11 @@ const routes = [
     },
     {
         method: 'GET',
+        path: '/',
+        handler: getAllNotesHandler
+    },
+    {
+        method: 'GET',
         path: '/notes',
         handler: getAllNotesHandler
     },
